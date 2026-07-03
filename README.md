@@ -6,11 +6,11 @@ Originally built during the Alura React course and later refactored to TypeScrip
 
 ## Features
 
-- 🧩 Create new teams with custom names and colors
-- 👤 Add collaborator cards with Name, Role, Image URL, and assigned team
-- ⭐ Favorite / unfavorite collaborators
-- 🗑️ Delete collaborator cards
-- 🎨 Change team colors dynamically
+- Create new teams with custom names and colors
+- Add collaborator cards with Name, Role, Image URL, and assigned team
+- Favorite / unfavorite collaborators
+- Delete collaborator cards
+- Change team colors dynamically
 
 ## Tech Stack
 
