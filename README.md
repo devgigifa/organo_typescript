@@ -1,10 +1,10 @@
-# 🪐 Organo
+# Organo
 
 **Organo** is a React + TypeScript application for managing teams and collaborators within an organization. Collaborators are grouped by technical area, making it easy to visualize team composition at a glance.
 
 Originally built during the Alura React course and later refactored to TypeScript with an improved structure and features.
 
-## ✨ Features
+## Features
 
 - 🧩 Create new teams with custom names and colors
 - 👤 Add collaborator cards with Name, Role, Image URL, and assigned team
@@ -12,7 +12,7 @@ Originally built during the Alura React course and later refactored to TypeScrip
 - 🗑️ Delete collaborator cards
 - 🎨 Change team colors dynamically
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -23,12 +23,12 @@ Originally built during the Alura React course and later refactored to TypeScrip
 | hex-to-rgba | Color manipulation |
 | uuid | Unique ID generation |
 
-## 📋 Prerequisites
+## Pre requisites
 
 - [Node.js](https://nodejs.org/) (LTS recommended)
 - npm (comes bundled with Node.js)
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
    ```bash
@@ -52,7 +52,7 @@ Originally built during the Alura React course and later refactored to TypeScrip
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser. The page will reload automatically as you make changes.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -62,7 +62,7 @@ src/
 └── index.tsx     # Application entry point
 ```
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---|---|
@@ -70,6 +70,6 @@ src/
 | `npm test` | Launches the test runner in interactive watch mode |
 | `npm run build` | Builds the app for production into the `build` folder, bundling React in production mode with optimized performance |
 
-## 👤 Author
+## Author
 
-Developed by Giovanna.
+Developed by Giovanna Alves.
