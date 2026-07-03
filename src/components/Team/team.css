@@ -1,0 +1,35 @@
+.team {
+    text-align: center;
+    padding: 32px;
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+.team h3 {
+    font-size: 32px;
+    font-family: 'Prata';
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.team h3:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.team .collaborators {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.color-input {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
