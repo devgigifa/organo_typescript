@@ -3,7 +3,7 @@ import './banner.css';
 const Banner = () => {
     return (
         <header className="header">
-            <img src="/images/banner.png" alt="Organo logo" />
+            <img src={`${process.env.PUBLIC_URL}/images/banner.png`} alt="Organo logo" />
         </header>
     );
 };

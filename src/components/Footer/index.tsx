@@ -7,23 +7,23 @@ const Footer = () => {
                 <ul>
                     <li>
                         <a href="facebook.com" target="_blank" rel="noreferrer">
-                            <img src="/images/facebook.png" alt="Facebook" />
+                            <img src={`${process.env.PUBLIC_URL}/images/facebook.png`} alt="Facebook" />
                         </a>
                     </li>
                     <li>
                         <a href="twitter.com" target="_blank" rel="noreferrer">
-                            <img src="/images/twitter.png" alt="Twitter" />
+                            <img src={`${process.env.PUBLIC_URL}/images/twitter.png`} alt="Twitter" />
                         </a>
                     </li>
                     <li>
                         <a href="instagram.com" target="_blank" rel="noreferrer">
-                            <img src="/images/instagram.png" alt="Instagram" />
+                            <img src={`${process.env.PUBLIC_URL}/images/instagram.png`} alt="Instagram" />
                         </a>
                     </li>
                 </ul>
             </section>
             <section>
-                <img src="/images/logo.png" alt="Logo Organo" />
+                <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="Logo Organo" />
             </section>
             <section>
                 <p>

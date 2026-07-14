@@ -17,7 +17,7 @@ interface TeamProps {
 const Team = ({ team, collaborators, onDelete, onDeleteTeam, changeColor, onFavorite, onProfileClick }: TeamProps) => {
     return (
         (collaborators.length > 0) ? (
-            <section className="team" style={{ position: 'relative', backgroundImage: 'url(/images/fundo.png)', backgroundColor: hexToRgba(team.color, '0.6') }}>
+            <section className="team" style={{ position: 'relative', backgroundImage: `url(${process.env.PUBLIC_URL}/images/fundo.png)`, backgroundColor: hexToRgba(team.color, '0.6') }}>
                 <AiFillCloseCircle 
                     size={30} 
                     className="delete-team" 
